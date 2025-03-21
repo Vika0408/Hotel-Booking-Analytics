@@ -1,23 +1,38 @@
 # Hotel Booking Analytics & Q&A System
 
-## Overview
-This project is a **hotel booking analytics and AI-powered Q&A system** that provides insights from booking data and allows users to ask questions about hotel performance using **Google's Gemini AI**. The system features:
+**📌 Overview**
 
-- 📊 **Booking Analytics Dashboard** (Revenue trends, booking patterns, etc.)
-- 🤖 **AI-Powered Q&A** (Answer questions using Gemini AI)
-- ⚡ **Efficient Data Retrieval** (Using FAISS for similarity search)
-- 🚀 **Fast API Responses** (Optimized with Flask)
+This project is an AI-powered Hotel Booking Analytics & QA System, built as part of the Solvei8 AI/ML Internship Assignment. The system provides insightful analytics on hotel bookings and allows users to ask questions about the data using a retrieval-augmented question-answering (RAG) system. The backend is implemented in Flask, and the AI-powered Q&A functionality is driven by Google Gemini.
 
-## Features
-- **Interactive analytics dashboard** to explore booking trends
-- **AI Q&A system** to answer queries based on hotel data
-- **FAISS-based similarity search** for quick information retrieval
-- **Optimized API performance** for seamless experience
 
-## Tech Stack
-- **Backend:** Flask, Google Gemini AI, FAISS, Sentence Transformers
-- **Database:** Pickle-based storage for analytics data
-- **Frontend:** HTML, CSS, JavaScript (for the dashboard)
+**✨ Features**
+
+Interactive Hotel Booking Analytics Dashboard 📊
+
+Retrieval-Augmented Question Answering (RAG) 🤖
+
+Semantic Search using FAISS 🔍
+
+AI-powered responses via Google Gemini 🚀
+
+Optimized API response time ⚡
+
+Fast and efficient data retrieval 🔄
+
+
+**🛠 Tech Stack**
+
+Backend: Flask, FastAPI
+
+AI Model: Google Gemini API
+
+Vector Database: FAISS
+
+Machine Learning: Sentence Transformers
+
+Data Processing: Pandas, Numpy
+
+Version Control: Git, GitHub
 
 ## Setup Instructions
 ### 1️⃣ Clone the Repository
@@ -99,10 +114,19 @@ http://127.0.0.1:5000/
 ![screencapture-127-0-0-1-5000-2025-03-21-14_54_14](https://github.com/user-attachments/assets/1f893b55-46bf-4daa-8634-71ffe3e75826)
 
 
-## Future Enhancements
-- ✅ Deploy on **Render/Vercel** for live access
-- ✅ Enhance UI with **React.js**
-- ✅ Add support for **multilingual AI responses**
+📊 Performance Evaluation
+
+✅ Accuracy of Q&A Responses: Evaluated based on sample queries.
+
+⚡ API Response Time: Optimized for fast retrieval.
+
+🔥 Future Enhancements
+
+✅ Improve NLP capabilities with additional LLMs.
+
+✅ Implement better caching mechanisms for faster response.
+
+✅ Enhance the frontend with interactive charts.
 
 ---
 👨‍💻 **Developed by:** Vanshika ✨  
